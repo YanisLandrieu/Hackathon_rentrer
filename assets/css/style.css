@@ -75,6 +75,7 @@ nav  {
     color: white;
     margin-right: 15px;
     margin-left: 15px;
+    align-items: center;
 }
 
 .player_title {
@@ -83,6 +84,35 @@ nav  {
 
 .player_button {
     display: flex; 
+    flex-direction: row;
+   
+}
+
+.player_info {
+    display: flex;
+    flex-direction: row;
+}
+
+.player_button div {
+    padding: 20px;
+}
+
+
+.player_title {
+    display: flex;
+    flex-direction: column;
+    margin-left: 15px;
+   
+}
+
+.player_info img {
+    width: 100px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.player_title p:first-child {
+    color: #17abd4;
 }
 /* ----------------------------------------
     Tom
