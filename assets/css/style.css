@@ -78,6 +78,34 @@ nav  {
     align-items: center;
 }
 
+.others_musics {
+    color: white;
+}
+
+table {
+    width: 100%;
+}
+
+.first_music td:last-child {
+    text-align: right;
+    padding: 10px;
+}
+
+.second_music td:last-child {
+    text-align: right;
+    padding: 10px;
+}
+
+.third_music td:last-child {
+    text-align: right;
+    padding: 10px;
+}
+
+.four_music td:last-child {
+    text-align: right;
+    padding: 10px;
+}
+
 .player_title {
     display: flex; 
 }
