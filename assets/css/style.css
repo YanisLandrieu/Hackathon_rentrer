@@ -5,13 +5,13 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: aqua;
+    background-color: #313131;
 }
 
 .container {
     display: grid;
     grid-template-columns: 0fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 0fr;
     gap: 0px 0px;
     grid-auto-flow: row;
     grid-template-areas:
@@ -45,6 +45,29 @@ body {
 /* ----------------------------------------
     Yanis   
 ---------------------------------------- */
+
+body,
+.container {
+    height: 100vh;
+
+}
+
+nav i {
+    color: white;
+}
+
+.menu {
+    height: 100%;
+   
+}
+
+nav  {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+}
 
 
 /* ----------------------------------------
