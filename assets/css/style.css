@@ -57,7 +57,7 @@ nav i {
 }
 
 .menu {
-    height: 100%;
+    height: 80%;
    
 }
 
@@ -69,7 +69,21 @@ nav  {
     align-items: center;
 }
 
+.player_music {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    margin-right: 15px;
+    margin-left: 15px;
+}
 
+.player_title {
+    display: flex; 
+}
+
+.player_button {
+    display: flex; 
+}
 /* ----------------------------------------
     Tom
 ---------------------------------------- */
